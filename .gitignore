@@ -1,0 +1,29 @@
+# WordPress ignore rules
+
+# Core files
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/license.txt
+/readme.html
+/xmlrpc.php
+
+# wp-content specific ignores
+/wp-content/advanced-cache.php
+/wp-content/backup-db/
+/wp-content/backups/
+/wp-content/blogs.dir/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/uploads/
+/wp-content/wp-cache-config.php
+
+# Ignore configuration file unless you want to track it
+wp-config.php
+
+# IDEs and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
